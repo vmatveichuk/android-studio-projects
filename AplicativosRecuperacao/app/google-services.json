@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "625022139769",
+    "project_id": "aplicativosrecuperacao-9c9e3",
+    "storage_bucket": "aplicativosrecuperacao-9c9e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625022139769:android:eb4e845f2e5385677c03a8",
+        "android_client_info": {
+          "package_name": "victor.pacotes.aplicativosrecuperacao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625022139769-7po6ea32raflte8psq21m0hmna1k0qin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApthi-5ii2AMYyjkSyepw1m8WaGVuV5Aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625022139769-7po6ea32raflte8psq21m0hmna1k0qin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AplicativosRecuperacao</string>
+    <string name="logar_com_google">Logar com google</string>
+    <string name="adicionar_foto">Adicionar foto</string>
+    <string name="tirar_foto">Tirar foto</string>
+    <string name="salvar_foto">Salvar foto</string>
+    <string name="descricao_foto">descricao foto</string>
+    <string name="tela_de_login">Tela de login</string>
+    <string name="entre_no_aplicativo">Entre no aplicativo</string>
+    <string name="foto">foto</string>
+    <string name="nome_da_foto">Nome da foto</string>
+    <string name="nome_foto">nome foto</string>
+    <string name="fotodousuario">fotoDoUsuario</string>
+    <string name="foto_nome">foto nome</string>
+    <string name="recupera_o_victor_gabriel_matveichuk">Recuperação Victor Gabriel Matveichuk</string>
+    <string name="iniciar_recupera_o">Iniciar recuperação</string>
+</resources>

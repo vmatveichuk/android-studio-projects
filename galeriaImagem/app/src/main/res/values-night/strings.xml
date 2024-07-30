@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">galeriaImagem</string>
+    <string name="name">Nome</string>
+    <string name="contato">Contato</string>
+    <string name="phone">telefone</string>
+    <string-array name="opcoes">
+        <item>Casa</item>
+        <item>Trabalho</item>
+        <item>Outro</item>
+    </string-array>
+</resources>

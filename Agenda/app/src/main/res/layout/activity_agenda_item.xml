@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".agendaActivtyItem">
+
+    <EditText
+        android:id="@+id/editTextItemPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Phone"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewItemPhone"
+        app:layout_constraintStart_toStartOf="@+id/editTextItemAddress" />
+
+    <EditText
+        android:id="@+id/editTextItemAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Address"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewItemAddress"
+        app:layout_constraintStart_toStartOf="@+id/editTextItemName" />
+
+    <TextView
+        android:id="@+id/textViewItemAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Address"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewItemName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewItemName" />
+
+    <TextView
+        android:id="@+id/textViewItemType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Type"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewItemPhone"
+        app:layout_constraintTop_toBottomOf="@+id/textViewItemPhone" />
+
+    <TextView
+        android:id="@+id/textViewItemPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Phone"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewItemAddress"
+        app:layout_constraintTop_toBottomOf="@+id/textViewItemAddress" />
+
+    <TextView
+        android:id="@+id/textViewItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Name"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewItemName"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerItemType"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/array_types"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="@+id/editTextItemPhone"
+        app:layout_constraintStart_toStartOf="@+id/editTextItemPhone"
+        app:layout_constraintTop_toBottomOf="@+id/editTextItemPhone"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonSaveItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="save"
+        app:layout_constraintStart_toStartOf="@+id/textViewItemType"
+        app:layout_constraintTop_toBottomOf="@+id/textViewItemType" />
+</androidx.constraintlayout.widget.ConstraintLayout>
